@@ -11,7 +11,10 @@ public class Main
     firstPerson.setAddress("Gort");
     firstPerson.setPhoneNumber("10292210");
 
-    System.out.println(firstPerson.toString());
 
+    Customer customer = new Customer("Oliwier", "Gort", "09828371", 14, false);
+    System.out.println(firstPerson.toString());
+    Customer customer2 = new Customer("Oliwier", "Gort", "3312323", 29, true );
+    System.out.println(customer2.toString());
     }
 }
