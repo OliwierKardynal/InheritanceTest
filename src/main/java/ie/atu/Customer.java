@@ -16,6 +16,22 @@ public class Customer extends Person {
         this.mailingList = mailingList;
     }
 
+    public int getCustomerNumber() {
+        return customerNumber;
+    }
+
+    public void setCustomerNumber(int customerNumber) {
+        this.customerNumber = customerNumber;
+    }
+
+    public boolean isMailingList() {
+        return mailingList;
+    }
+
+    public void setMailingList(boolean mailingList) {
+        this.mailingList = mailingList;
+    }
+
     @Override
     public String toString() {
         return "Customer{" +
